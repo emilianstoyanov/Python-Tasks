@@ -1,7 +1,7 @@
 def solution(inputString):
-    t = [chr(ord(character) - 25) if ord(character) == 122 else chr(ord(character) + 1) for character in inputString]
+    t = ''.join([chr(ord(character) - 25) if ord(character) == 122 else chr(ord(character) + 1) for character in inputString])
 
-    return ''.join(t)
+    return t
 
 
 print(solution('crazy'))
