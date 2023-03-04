@@ -1,3 +1,6 @@
+# For a given sentence, return the average word length.
+# Note: Remember to remove punctuation first.
+
 import string
 
 sentence1 = "Hi all, my name is Tom...I am originally from Australia."
