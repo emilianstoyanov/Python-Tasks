@@ -5,7 +5,6 @@ def solution(inputString):
     b = re.findall(r'\d+', inputString)
     if b:
         return sum([int(e) for e in b])
-
     return 0
 
 
