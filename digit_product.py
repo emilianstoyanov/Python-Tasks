@@ -13,23 +13,23 @@ def solution(p):
 print(solution(12))
 # Expected Output: 26
 
-# print(solution(243))
+print(solution(243))
 # # Expected Output: 399
-#
-# print(solution(19))
+
+print(solution(19))
 # # Expected Output: -1
-#
-# print(solution(450))
+
+print(solution(450))
 # # Expected Output: 2559
-#
-#
-# print(solution(0))
+
+
+print(solution(0))
 # # Expected Output: 10
-#
-# print(solution(13))
+
+print(solution(13))
 # # Expected Output: -1
-#
-# print(solution(1))
+
+print(solution(1))
 # # Expected Output: 1
 
 # Given an integer product, find the smallest positive (i.e. greater than 0)
