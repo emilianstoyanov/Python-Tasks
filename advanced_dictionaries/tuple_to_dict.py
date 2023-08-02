@@ -8,4 +8,8 @@ for key, value in tuple_list:
     grouped_data[key].append(value)
     
     
-print(grouped_data["A"]) # {'A': [10, 5], 'B': [4, 1], 'C': [7]}
+print(grouped_data) # {'A': [10, 5], 'B': [4, 1], 'C': [7]}
+
+grouped_data = {k: sum(v) for k, v in grouped_data.items()}
+
+print(grouped_data) # {'A': 15, 'B': 5, 'C': 7}
