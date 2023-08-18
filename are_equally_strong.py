@@ -4,7 +4,7 @@ def solution(yourLeft, yourRight, friendsLeft, friendsRight):
 
 
 print(solution(10, 15, 15, 10))
-# Expected Output: true
+# Expected Output: trueg
 
 print(solution(20, 15, 5, 20))
 # Expected Output: false
